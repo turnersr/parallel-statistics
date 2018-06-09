@@ -34,4 +34,5 @@ This code enables the ability to split up datasets and in parallel compute some 
     h5 = aggrate_rolling_values(l_rs)
 
     # Test addition 
-    h6 = (h1 + h2) + h3```
+    h6 = (h1 + h2) + h3
+    ```
