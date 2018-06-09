@@ -1,3 +1,11 @@
+from __future__ import print_function
+
+from math import fabs
+import numpy as np
+
+    
+
+
 class RunningStat(object):
     """ 
     Based on ideas presented in
@@ -62,8 +70,7 @@ class RunningStat(object):
             return self.m_newS / (self.m_n - 1)
         
     def std(self):
-        from numpy import sqrt
-        return sqrt(self.variance())  
+        return np.sqrt(self.variance())  
     
     def __add__(self,right):
         if type(right) is not RunningStat:
@@ -125,9 +132,6 @@ def aggrate_rolling_values(list_of_rs):
 
 
 def test_suit():
-    from math import fabs
-    import numpy as np
-    
     error = 0.0000001 
     
     # Setup test data
@@ -240,4 +244,4 @@ def test_suit():
     
 for i in range(0,1000):
     test_suit()
-print "Testing Done" 
+print("Testing Done" )
