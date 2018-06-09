@@ -35,4 +35,3 @@ This code enables the ability to split up datasets and in parallel compute some 
 
     # Test addition 
     h6 = (h1 + h2) + h3
-    ```
