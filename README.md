@@ -1,7 +1,7 @@
 # parallel-statistics
 Single-pass, parallel statistics algorithms for mean, variance, and standard deviation. See the rs.py file for example usage. 
 
-This code enables the ability to split up datasets and in parallel compute some descriptive statistics. Here is an example from rs.py
+This code enables the ability to split up datasets and in parallel compute some descriptive statistics. Here is an example from the test_suit fuction in rs.py. 
 
 ```python
     # Setup test data
